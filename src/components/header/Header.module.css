@@ -1,0 +1,108 @@
+ul {
+    list-style: none;
+}
+
+.webLink {
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+.menu {
+    display: inline-block;
+    padding: 0px 13px;
+}
+
+
+.menuContainer {
+    padding-left: 55px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content:space-between;
+    width: 1366px;
+
+    img {
+        margin-top: 15px;
+        width: 160px;
+    }
+}
+
+.menuContent {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.mobileMenuIcon {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media (max-width: 391px) {
+    ul {
+        list-style: none;
+    }
+    
+    .webLink {
+        text-decoration: none;
+        color: #d6d6d6;
+    }
+    
+    .menu {
+        display: inline-block;
+        padding: 0px 13px;
+    }
+    
+    
+    .menuContainer {
+        padding-left: 25px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #000000;
+        display: grid;
+        position: fixed;
+        align-items: center;
+        justify-content:space-between;
+        width: 390px;
+    
+        img {
+            margin-top: 15px;
+            width: 125px;
+        }
+    }
+    
+    .menuContent {
+        display: none;
+    }
+
+    .mobileMenuIcon {
+        display: flex;
+        margin-top: -45px;
+        padding-left: 285px;
+    }
+
+    .mobileMenuIcon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 40px;
+        color: #d6d6d6;
+    }
+
+    .mobileMenu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .open {
+        display: block;
+    }
+}
