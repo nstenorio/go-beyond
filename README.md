@@ -3,7 +3,8 @@
 ## Projeto:
 
 Recriar o modelo da Página da Corebiz disponível no Adobe XD.
-Link: 
+
+Link: https://go-beyond-mauve.vercel.app/
 
 ## Tecnologias Utilizadas
 
@@ -32,7 +33,14 @@ Existe um modelo responsivo como solocitado no desafio para Iphone 12 Pro, onde 
 
 O Resultado de desemenho do site no LightHouse foi:
 
+Desktop:
 93 - Performance
 100 Accessibility
+93 - Best Practices
+92 - SEO
+
+Mobile:
+99 - Performance
+100 - Accessibility
 93 - Best Practices
 92 - SEO
