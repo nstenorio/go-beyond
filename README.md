@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Go Beyond - Challange Corebiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto:
 
-## Available Scripts
+Recriar o modelo da Página da Corebiz disponível no Adobe XD.
+Link: 
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `npm start`
+Todo o Projeto foi desenvolvido em ReactJS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Info
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto Desenvolvido em ReactJS
 
-### `npm test`
+*Editor Códigos utilizados:* VS Code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O Projeto tem como elemento principal uma página chamada "index.html" nesta página serão carregados todos os elementos criados em React.
+A página foi desenvolvida em Display Grid, onde defino os itens principais do meu modelo que são:
 
-### `npm run build`
+Header: que recebe a logo da Corebiz e o menu proposto
+Main Content: que recebe todos os insights da página
+Footer: onde tem novamente o seu menu e os endereços onde a Corebiz atua.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cada elemento está separado em seu diretório específico e com seus arquivos principais, facilitando a alteração de qualquer item sem causar prejuizo no seu modelo principal
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O elemento Main, está consumindo uma API de imagens, utilizando o JS para alteração de titulo e imagem principal quando selecionado um Thumbnail diferente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Existe um modelo responsivo como solocitado no desafio para Iphone 12 Pro, onde meu modelo irá se ajutar conforme a dimensão da tela
 
-### `npm run eject`
+# LightHouse
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O Resultado de desemenho do site no LightHouse foi:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+93 - Performance
+100 Accessibility
+93 - Best Practices
+92 - SEO
