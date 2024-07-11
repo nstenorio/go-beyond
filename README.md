@@ -31,7 +31,7 @@ Existe um modelo responsivo como solocitado no desafio para Iphone 12 Pro, onde 
 
 # LightHouse
 
-O Resultado de desemenho do site no LightHouse foi:
+O Resultado de desempenho do site no LightHouse foi:
 
 Desktop:
 93 - Performance
